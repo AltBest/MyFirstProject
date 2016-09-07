@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:minHeight="@dimen/height_phoneNumber"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/paddingLR_phoneNumber"
+    android:paddingRight="@dimen/paddingLR_phoneNumber"
+    tools:context="com.feicui.contacts.android8_30.adapter.PhoneNumberAdapter">
+
+    <TextView
+        android:id="@+id/tv_phoneName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/font_h3_size"
+        android:text="测试"/>
+    <ImageView
+
+        android:layout_width="@dimen/hw_png"
+        android:layout_height="@dimen/hw_png"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/arrow_right"
+        android:id="@+id/iv_arrowRight"/>
+
+    <TextView
+        android:id="@+id/tv_phoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@+id/iv_arrowRight"
+        android:text="测试"
+        android:textSize="@dimen/font_h3_size"/>
+</RelativeLayout>
